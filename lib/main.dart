@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intan_travel/latihanmodul/pertemuan4.dart';
+import 'package:intan_travel/latihanmodul/pertemuan5.dart';
+import 'package:intan_travel/screens/landingpage.dart';
 import 'package:intan_travel/screens/splashscreen.dart';
 
 void main() {
@@ -13,7 +15,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Splashscreen(),
+      home: LandingPageOne(),
     );
   }
 }
