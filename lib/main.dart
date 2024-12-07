@@ -1,5 +1,6 @@
 
 import 'package:aslab_travel/latihanmodul/pertemuan6.dart';
+import 'package:aslab_travel/latihanmodul/pertemuan9API.dart';
 import 'package:aslab_travel/screens/homepage.dart';
 import 'package:aslab_travel/screens/splashscreen.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Pertemuan9APIScreen(),
     );
   }
 }
